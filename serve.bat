@@ -1,0 +1,1 @@
+"./dist/php/php.exe" -n -dextension="%cd%/dist/php/ext/php_mbstring.dll" -dextension="%cd%/dist/php/ext/php_openssl.dll" -dextension="%cd%/dist/php/ext/php_pdo_sqlite.dll" -dextension="%cd%/dist/php/ext/php_xmlrpc.dll" -S localhost:8000 "./practice-original/server.php"
